@@ -1,0 +1,23 @@
+[tool.poetry]
+
+name = taminus
+version = "0.0.1"
+description = "A lightwieght framework ."
+license = "MIT"
+repository = "https://github.com/jonathanfelicity/taminus"
+authors = [
+    "Jonathan Felicity",
+]
+maintainers = [
+    "Jonathan Felicity <jonathanfelicity@mail.com>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ”^3.5”
+
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
