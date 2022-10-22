@@ -1,6 +1,5 @@
 [tool.poetry]
-
-name = taminus
+name = "taminus"
 version = "0.0.1"
 description = "A lightwieght framework ."
 license = "MIT"
@@ -14,8 +13,7 @@ maintainers = [
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ”^3.5”
-
+python = "^3.5"
 
 
 [build-system]
