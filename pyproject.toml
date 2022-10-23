@@ -1,21 +1,31 @@
-[tool.poetry]
 name = "taminus"
 version = "0.0.1"
-description = "A lightwieght framework ."
-license = "MIT"
+description = "A lightwieght python web framework"
 repository = "https://github.com/jonathanfelicity/taminus"
+documentation = "http://taminus.readthedocs.io/"
+license = "MIT"
 authors = [
-    "Jonathan Felicity",
-]
-maintainers = [
     "Jonathan Felicity <jonathanfelicity@mail.com>",
 ]
+
+
+[tool.poetry]
+include = ["CHANGELOG.md"]
+packages = [
+    { include = "src/taminus" },
+]
+
 readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.7"
+WebOb = "^1.8.7"
 
 
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
