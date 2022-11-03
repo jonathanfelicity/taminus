@@ -1,1 +1,1 @@
-from taminus import *
+from .main import *
