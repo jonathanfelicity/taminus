@@ -1,6 +1,6 @@
 [project]
 name = "taminus"
-version = "0.0.4"
+version = "0.0.5"
 description = "A lightwieght python web framework for building websites"
 readme = "README.md"
 requires-python = ">=3.8"
