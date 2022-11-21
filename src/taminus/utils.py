@@ -6,7 +6,7 @@ def json(res, data):
     """
     res.content_type = 'text/json'
     res.json = data
-    res
+    return res
 
 def send(res, data):
     res.content_type = 'text/html'

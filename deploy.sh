@@ -1,1 +1,1 @@
-twine upload dist/*
+twine upload dist/* --verbose
