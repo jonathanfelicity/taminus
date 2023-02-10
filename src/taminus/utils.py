@@ -1,15 +1,10 @@
+class Response:
+    def __init__(self):
+        self.status_code = 404
+        self.headers = []
+        self.text = "Page Not Found"
 
-
-def json(res, data):
-    """
-        Returns a json object
-    """
-    res.content_type = 'text/json'
-    res.json = data
-    return res
-
-def send(res, data):
-    res.content_type = 'text/html'
-    res.text = data
-    return res
-
+    def send(self, status_code, headers, text):
+        self.status_code = status_code
+        self.headers = headers
+        self.text = text
