@@ -1,10 +1,13 @@
+from status import STATUS_CODES
 class Response:
-    def __init__(self):
-        self.status_code = 404
-        self.headers = []
-        self.text = "Page Not Found"
+    def __init__(self, body=""):
+        self.status_code = 200
+        self.status_text = "OK"
+        self.headers = {}
+        self.body = body
 
-    def send(self, status_code, headers, text):
+    def send(self, status_code, headers, body):
         self.status_code = status_code
-        self.headers = headers
-        self.text = text
+        self.status_text = STATUS_CODES.get(status_code, "Unknown")
+        self.headers.update(headers)
+        self.body = body
