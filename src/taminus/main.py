@@ -47,18 +47,3 @@ class Taminus:
             print("Shutting down server...")
         finally:
             print("Server stopped")
-
-
-app = Taminus()
-
-@app.route("/")
-def home(req, res):
-    res.send(200, [("Content-Type", "text/html")], "<h1>Hello, World!</h1>")
-
-@app.route("/about")
-def about(req, res):
-    res.send(200, [("Content-Type", "text/html")], "<h1>About Us</h1><p>We are a small web development company.</p>")
-
-if __name__ == '__main__':
-    app.serve()
-

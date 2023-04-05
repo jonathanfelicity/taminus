@@ -1,4 +1,6 @@
-from status import STATUS_CODES
+from taminus.constants import STATUS_CODES
+
+
 class Response:
     def __init__(self, body=""):
         self.status_code = 200
