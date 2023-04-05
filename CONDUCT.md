@@ -1,43 +1,37 @@
-# Code of Conduct
+# Taminus Code of Conduct
+## Introduction
+The Taminus project is committed to providing a welcoming and inclusive environment for all participants. We value the diversity of identities and perspectives that our contributors bring to the project, and we want to create an environment where everyone feels respected and valued.
 
-## Our Pledge
+We expect all participants in the Taminus community to abide by this code of conduct at all times. This includes members of the Taminus team, as well as external contributors, users, and partners.
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+## Our Values
+The Taminus project is guided by the following values:
 
-## Our Standards
+- Respect: We value the contributions and perspectives of all participants, and we strive to create an environment where everyone feels respected and valued.
+- Inclusivity: We are committed to building an inclusive community that welcomes and supports participants from all backgrounds.
+- Collaboration: We believe that collaboration is key to the success of the Taminus project, and we encourage all participants to work together in a spirit of cooperation and mutual support.
+- Accountability: We take responsibility for our actions and our impact on others, and we hold ourselves and each other accountable for upholding this code of conduct.
+## Expected Behavior
+As a participant in the Taminus community, you are expected to:
 
-Examples of behavior that contributes to creating a positive environment include:
+- Treat all participants with respect and courtesy, regardless of their background, identity, or perspective.
+- Use welcoming and inclusive language, and avoid any language or behavior that is discriminatory, harassing, or otherwise inappropriate.
+- Listen actively to others, and be open to learning from their perspectives and experiences.
+- Be constructive and respectful in your interactions with others, even when you disagree with them.
+- Take responsibility for your actions, and be willing to apologize and make amends if you harm others or violate this code of conduct.
+- Respect the privacy and confidentiality of others, and avoid sharing personal information without their consent.
+- Report any behavior that violates this code of conduct to the Taminus team.
+## Unacceptable Behavior
+The following behaviors are considered unacceptable in the Taminus community:
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
-
-Examples of unacceptable behavior by participants include:
-
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
-
-## Our Responsibilities
-
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
-
+- Harassment or discrimination based on race, ethnicity, gender, sexual orientation, age, religion, or any other characteristic protected by law.
+- Intimidation or bullying of any kind, whether online or in person.
+- Verbal or physical abuse, threats, or violence.
+- Any behavior that makes others feel unwelcome or unsafe.
+- Any behavior that violates the privacy or confidentiality of others.
+- Any behavior that violates applicable laws or regulations.
 ## Enforcement
+If you witness or experience behavior that violates this code of conduct, please report it to the Taminus team at `taminus@mail.com`. All reports will be taken seriously and investigated promptly and confidentially. The Taminus team reserves the right to take any action it deems appropriate in response to violations of this code of conduct, up to and including banning individuals from participating in the Taminus community.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant homepage](http://contributor-covenant.org/version/1/4), version 1.4.
+## Conclusion
+We believe that the Taminus project can only succeed if we create a welcoming and inclusive community that values the contributions and perspectives of all participants. We ask that all members of the community abide by this code of conduct, and we welcome your feedback on how we can continue to improve our community.
