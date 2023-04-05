@@ -11,10 +11,14 @@ class Taminus:
     def default_response(self, res):
         res.send(404, [("Content-Type", "text/plain")], "Page Not Found")
 
-    def route(self, path, methods=["GET"]):
-        def decorator(view):
+    def route(self, path, methods=["GET"], view=None):
+        if view is not None:
             self.routes[path] = {m: view for m in methods}
-            return view
+
+        def decorator(view_func):
+            self.routes[path] = {m: view_func for m in methods}
+            return view_func
+
         return decorator
 
     def __call__(self, environ, start_response):
