@@ -1,51 +1,65 @@
-Contributing
-Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given.
+# Contributing to Taminus
+Taminus is an open-source project, and contributions from the community are always welcome! Whether you're a seasoned Python developer or just starting out, there are many ways you can contribute.
 
-Types of Contributions
-Report Bugs
-Report bugs at https://github.com/jonathanfelicity/taminus/issues
+## How to Contribute
+There are many ways to contribute to Taminus, including:
 
-If you are reporting a bug, please include:
+- Reporting bugs
+- Suggesting new features
+- Writing documentation
+- Writing code
+## Reporting Bugs
+If you encounter a bug while using Taminus, please open an issue on GitHub. Be sure to include as much information as possible, including:
 
-Your operating system name and version.
-Any details about your local setup that might be helpful in troubleshooting.
-Detailed steps to reproduce the bug.
-Fix Bugs
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help wanted" is open to whoever wants to implement it.
+* Steps to reproduce the bug
+* Expected behavior
+* Actual behavior
+* Any error messages or stack traces
+## Suggesting New Features
+If you have an idea for a new feature or enhancement, please open an issue on GitHub. Describe the feature in as much detail as possible, and explain why you think it would be useful.
 
-Implement Features
-Look through the GitHub issues for features. Anything tagged with "enhancement" and "help wanted" is open to whoever wants to implement it.
+## Writing Documentation
+Documentation is an important part of any project, and Taminus is no exception. If you'd like to help improve the documentation, please feel free to submit a pull request. You can find the documentation in the docs/ directory.
 
-Write Documentation
-py-pkgs-cookiecutter could always use more documentation!
+## Writing Code
+If you'd like to contribute code to Taminus, here's how to get started:
 
-Submit Feedback
-The best way to send feedback is to file an issue at https://github.com/jonathanfelicity/taminus/issues
+Fork the Taminus repository on GitHub.
 
-If you are proposing a feature:
+Clone your forked repository to your local machine.
 
-Explain in detail how it would work.
-Keep the scope as narrow as possible, to make it easier to implement.
-Remember that this is a volunteer-driven project, and that contributions are welcome :)
-Get Started!
-Ready to contribute? Here's how to set up py-pkgs-cookiecutter for local development.
+Install Taminus in development mode:
 
-Fork the py-pkgs-cookiecutter repo on GitHub.
 
-Clone your fork locally::
+```bash
+pip install -e .
+```
+Create a new branch for your changes:
 
-$ git clone git@github.com:your_name_here/py-pkgs-cookiecutter.git
-Create a branch for local development and make your changes locally::
 
-$ git checkout -b name-of-your-bugfix-or-feature
-When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests.
+```bash
+ git checkout -b my-feature-branch
+```
+Make your changes and commit them:
 
-Commit your changes and push your branch to GitHub::
 
-$ git add .
-$ git commit -m "Your detailed description of your changes."
-$ git push origin name-of-your-bugfix-or-feature
-Submit a pull request on GitHub.
+```bash
+git add .
+git commit -m "Add a new feature"
 
-Code of Conduct
-Please note that this project is released with a Code of Conduct. By contributing to this project you agree to abide by its terms.
+```
+Push your changes to your forked repository:
+
+```
+git push origin my-feature-branch
+```
+Open a pull request on GitHub.
+
+## Code Style
+Taminus follows the PEP 8 style guide for Python code. When submitting a pull request, please ensure that your code follows these guidelines.
+
+## Code Review
+All pull requests will be reviewed by a member of the Taminus team. We may suggest changes or ask for clarification before merging your code.
+
+## Thank You
+Thank you for your interest in contributing to Taminus! We appreciate your help in making this project better. If you have any questions, feel free to open an issue on GitHub or reach out to us on Twitter.
