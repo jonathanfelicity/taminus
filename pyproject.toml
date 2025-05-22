@@ -1,53 +1,16 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"] # Ensure this is a recent version of maturin
+build-backend = "maturin"
+
 [project]
-name = "taminus"
-version = "0.0.8"
-description = "A lightwieght python web framework for building websites"
-readme = "README.md"
+name = "actixpy" # This will be the name of the pip package
+version = "0.1.0"
 requires-python = ">=3.8"
-license = {file = "LICENSE.md"}
-keywords = ["framework", "web", "async", "asgi", "machine learning"]
-authors = [
-  { name = "Jonathan Felicity" , email = "jonathanfelicity@mail.com"},
-]
-
-
 classifiers = [
- "Intended Audience :: Information Technology",
-    "Intended Audience :: System Administrators",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python",
-    "Topic :: Internet",
-    "Topic :: Software Development :: Libraries :: Application Frameworks",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Software Development :: Libraries",
-    "Topic :: Software Development",
-    "Typing :: Typed",
-    "Development Status :: 4 - Beta",
-    "Environment :: Web Environment",
-    "Framework :: AsyncIO",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
-    "Topic :: Internet :: WWW/HTTP"
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
 ]
 
-dependencies = [
-  "WebOb",
-]
-
-[project.optional-dependencies]
-test = [
-  "pytest",
-]
-
-[project.urls]
-homepage = "http://jonathanfelicity.tech/"
-documentation = "https://taminus.readthedocs.io/en/latest/"
-repository = "https://github.com/jonathanfelicity/taminus"
-changelog = "https://github.com/jonathanfelicity/taminus/blob/main/CHANGELOG.md"
+[tool.maturin]
+manifest-path = "actixpy-core/Cargo.toml"
